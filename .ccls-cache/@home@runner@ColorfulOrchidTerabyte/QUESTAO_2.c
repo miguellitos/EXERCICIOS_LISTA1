@@ -3,13 +3,12 @@
 int main() {
   int Numero, Algarismo, Soma = 0;
 
-  printf("Digite um numero: \n");
   scanf("%d", &Numero);
 
   if (Numero % 2 == 0) {
-    printf("%d eh par.\n", Numero);
+    printf("%d eh par\n", Numero);
   } else {
-    printf("%d eh impar.\n", Numero);
+    printf("%d eh impar\n", Numero);
   }
 
   int original = Numero;
